@@ -16,7 +16,7 @@ h1,
 h2 {
   font-weight: bold;
   font-size: clamp(2.3vw, 92px, 6vw);
-  margin-top: 60px;
+  margin-top: 60px !important;
 }
 
 body {
