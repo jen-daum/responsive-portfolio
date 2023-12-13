@@ -12,7 +12,8 @@
   box-sizing: border-box;
 }
 
-h1 {
+h1,
+h2 {
   font-weight: bold;
   font-size: clamp(2.3vw, 92px, 6vw);
   margin-top: 60px;
@@ -25,9 +26,10 @@ body {
   font-size: clamp(0.8rem, 1vw, 1.2rem);
 }
 
-h2,
 h3,
 h4 {
+  font-weight: bold;
+  margin-top: 60px;
   font-size: clamp(1.2rem, 1.5vw, 2rem);
 }
 
@@ -58,14 +60,22 @@ button:hover {
 
 #about {
   background-color: #56dcee59; /* light blue color */
-  width: 100%;
-  margin: 0;
-  padding: 20px 0; /* Adjust padding as needed */
+  width: 150%;
   box-sizing: border-box;
-  color: black;
+  color: white;
 }
 
-h1 .accent {
+* .accent {
   font-size: clamp(2.3vw, 92px, 6vw);
   color: var(--primary); /* Using the primary color variable defined earlier */
+}
+
+.title-container h2 {
+  display: inline-block; /* Makes the h2 inline-block */
+  margin: 0; /* Removes default margin */
+}
+
+.title-container p {
+  display: inline; /* Makes the p element inline */
+  margin: 0; /* Removes default margin */
 }
