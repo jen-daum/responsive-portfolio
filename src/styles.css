@@ -70,6 +70,12 @@ button:hover {
   color: var(--primary); /* Using the primary color variable defined earlier */
 }
 
+.card-img-top {
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* This will cover the area without stretching the image */
+  width: 100%; /* Ensure the image spans the full width of the card */
+}
+
 .title-container h2 {
   display: inline-block; /* Makes the h2 inline-block */
   margin: 0; /* Removes default margin */
