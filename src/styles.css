@@ -12,6 +12,9 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
 h1,
 h2 {
   font-weight: bold;
@@ -40,7 +43,7 @@ p {
 /* Section Styling */
 section {
   padding: 20px;
-  min-height: 100vh;
+  min-height: 60vh;
 }
 
 /* Button Styling */
@@ -60,7 +63,6 @@ button:hover {
 
 .alternate-background {
   background-color: #56dcee59; /* light blue color */
-
   box-sizing: border-box;
   color: white;
 }
@@ -84,4 +86,20 @@ button:hover {
 .title-container p {
   display: inline; /* Makes the p element inline */
   margin: 0; /* Removes default margin */
+}
+
+#about {
+  background-color: var(--primary); /* Your fallback color */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  transition: background 0.5s ease; /* Optional: for a smooth transition */
+}
+
+#contact {
+  min-height: 30vh;
+}
+
+#contact .social-container i {
+  font-size: 60px;
+  color: var(--primary);
 }
