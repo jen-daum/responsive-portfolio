@@ -36,6 +36,11 @@ h4 {
   font-size: clamp(1.2rem, 1.5vw, 2rem);
 }
 
+a {
+  color: white;
+  text-decoration: underline;
+}
+
 p {
   font-size: clamp(0.9rem, 1.1vw, 1.3rem);
 }
